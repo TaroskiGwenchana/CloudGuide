@@ -1,0 +1,319 @@
+/* Global Styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+.nav {
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; 
+}
+
+
+.nav li a {
+  display: block;
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav li a:hover {
+  color: #60a5fa;
+}
+
+/* Main Container */
+.main-container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+  padding: 2.5rem;
+  flex: 1;
+}
+
+.SmallH h3 {
+  color: #334155;
+  margin-top: 0;
+}
+
+/* Remade Banner Box (.sub-logo) */
+.sub-logo {
+  background: linear-gradient(135deg, #2563eb, #00b4d8);
+  color: white;
+  border-radius: 10px;
+  padding: 3rem 2rem;
+  margin: 1.5rem 0 2rem 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.sub-logo h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.2rem;
+}
+
+.sub-logo p {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Cards */
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap; 
+}
+
+.card-link {
+  flex: 1 1 250px; 
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 0;
+}
+
+.card-link:hover .card {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  background-color: #e0f2fe;
+  border-color: #bae6fd;
+}
+
+/* Subparagraph */
+.Subparagraph p {
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer1 {
+  background-color: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+
+.Aboutcon {
+  max-width: 1000px;
+  width: 90%;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+  padding: 2.5rem;
+  flex: 1;
+}
+
+
+/* HistoryProjectPeta.html */
+
+.main-body {
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  color: #1e293b;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.main-body h1 {
+  color: #0f172a;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.main-body p {
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+
+/* TopicsProjectPeta.html */
+
+.main-body2 {
+  background-color: #f1f5f9 !important;
+  border-radius: 8px !important;
+  border: 1px solid #e2e8f0 !important;
+  color: #1e293b !important;
+  padding: 20px !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  margin-bottom: 20px;
+}
+
+.main-body2 h1 {
+  color: #0f172a;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.main-body2 p {
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.topic-section-title {
+  color: #1e3a8a;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.Sub1, .Sub2, .Sub3 {
+  background-color: #e2e8f0 !important;
+  color: #1e293b !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+.pone {
+  color: #475569 !important;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+.pone strong {
+  color: #0f172a;
+}
+
+/* Flex Wrapper for Lessons page */
+.flex-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+  
+  .Sub1, .Sub2, .Sub3 {
+    width: 100% !important;
+    height: 150px !important;
+  }
+}
+
+.Sub1-main {
+  margin: 5px;
+  background-color: whitesmoke;
+  padding: 5px;
+}
+/* Lessons Page Content Styling */
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.Lesson1, .Lesson2, .Lesson3{
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.Lesson1 h1, .Lesson3 h1, .Lesson2 h1 {
+  color: #0f172a;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.Lesson1 p, .Lesson2, .Lesson3 {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.Lesson1 strong, .Lesson2 strong, .Lesson3 strong{
+  color: #0f172a;
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    gap: 1rem; 
+    justify-content: center;
+  }
+  
+  .main-container, .Aboutcon, .mainbody {
+    width: 95% !important;
+    padding: 1rem !important;
+    margin: 1rem auto !important;
+  }
+
+  .sub-logo {
+    padding: 2rem 1rem;
+  }
+
+  .sub-logo h1 {
+    font-size: 1.6rem;
+  }
+
+  .card-row {
+    flex-direction: column;
+  }
+}
+
+html {
+    scroll-behavior: smooth;
+}
